@@ -1,0 +1,34 @@
+CONTROLE DE HORAS TK - PACOTE COMPLETO (v53)
+============================================
+
+O QUE TEM NESTA PASTA
+- Controle de Horas TK.xlam     suplemento, ja com a macro nova dentro (nao precisa importar nada)
+- Lancamento horas - EI32.xlsx  planilha v53 (visual novo + correcoes)
+- Pontos 2026.xlsx              base de pontos
+- INSTALAR.vbs                  instalador de dois cliques
+- Modulo_Controle_Horas.bas     copia de seguranca do codigo (so para emergencia)
+
+COMO USAR (2 passos)
+1. FECHE o Excel. Copie TUDO desta pasta para a pasta oficial "01 - Padronizacao Definitiva"
+   (a sincronizada do SharePoint). Quando perguntar, escolha "Substituir os arquivos no destino".
+   A pasta Relatorios e os PDFs que ja estao la continuam como estao.
+2. Na pasta oficial, de dois cliques em INSTALAR.vbs.
+   Ele faz sozinho:
+   - desbloqueia os arquivos;
+   - libera as macros desta pasta (Local Confiavel);
+   - cria as pastas de relatorio;
+   - ativa o suplemento;
+   - cria os botoes na planilha e salva.
+   Quando o Excel mostrar "Botoes criados", clique em OK.
+
+OUTROS COMPUTADORES
+So o passo 2: dois cliques no INSTALAR.vbs da pasta oficial.
+
+SE O INSTALAR.vbs NAO RODAR (bloqueio da TI)
+1. Arquivo > Opcoes > Suplementos > Ir... > Procurar > "Controle de Horas TK.xlam"
+   (se perguntar se quer copiar, responda Nao) > marque > OK.
+2. Abra a planilha > guia Suplementos > Controle de Horas TK > "Instalar botoes nesta planilha" > Ctrl + S.
+
+RELATORIOS
+Relatorios\02 - EI32\2026\09 - Setembro - EI32.pdf
+Um arquivo por mes. Se o mesmo mes for emitido de novo, o arquivo e substituido.

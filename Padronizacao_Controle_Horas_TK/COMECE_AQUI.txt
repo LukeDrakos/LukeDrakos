@@ -1,0 +1,19 @@
+COMO CONTINUAR NO CLAUDE CODE
+=============================
+
+1. Descompacte esta pasta (Padronizacao_Controle_Horas_TK) em um lugar de trabalho no seu computador,
+   de preferencia FORA da pasta oficial do G: (trabalhe em copia; a oficial so recebe o resultado final).
+
+2. Abra o Claude Code nessa pasta. Ele le o CLAUDE.md sozinho.
+
+3. Primeira mensagem sugerida (copie e cole):
+
+   Leia o CLAUDE.md e o docs/MAPA_COLUNAS.md inteiros. Depois me diga, em resumo,
+   o que entendeu da estrutura da EI32 v55 e das regras do ferista. Ainda nao altere nada.
+   Em seguida vamos planejar a padronizacao da EI36 (e depois EI31) no modelo da EI32.
+
+4. Antes de ele alterar algo, coloque na pasta "planilhas" a versao MAIS RECENTE de cada planilha
+   (EI32 da pasta oficial, EI36 atual do Felipe, EI31) e avise que ninguem deve lancar nelas enquanto isso.
+
+5. A planilha "planilhas/Lancamento horas - EI32.xlsx" e a v55 (sem botoes). Se a da pasta oficial
+   ja for a v55, use a da pasta oficial.
