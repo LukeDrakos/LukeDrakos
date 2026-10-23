@@ -145,3 +145,31 @@ As colunas A–AU são as mesmas. Algumas fórmulas mudaram e entraram colunas n
 4. Diego (jun): reclassificar como "Adicional Não Solicitado"?
 5. SPOT: o Murilo tem dois cadastros (normal e "- Spot"). O ponto do relógio vai para o cadastro normal (518607).
 6. Observações de atestado com motivo médico ("Atestado médico", "Declaração médica"). A regra da EI32 é só "Dia Atestado".
+
+## Padronização visual e orientações (EI32 e EI36, 23/10)
+
+Script: `ferramentas/ei36/padronizar.py EI32|EI36 entrada saida [logo]`. Não mexe em fórmula de cálculo: Analises I (EI32) e Resumo_Mensal H (EI36) ficaram idênticos.
+
+- **Aba `Como_Usar` igual nas duas** (na EI36 substitui a LEIA-ME). Seções:
+  - onde cada coisa fica;
+  - rotina do dia;
+  - **COMO LANÇAR CADA SITUAÇÃO** (situação → status → o que preencher → desconta?);
+  - o que a planilha faz sozinha;
+  - botões;
+  - fechamento do mês;
+  - mudanças de cadastro;
+  - cores.
+- **Dicas em todas as colunas de entrada:**
+  - mensagem ao clicar na célula (validação com mensagem);
+  - balão no cabeçalho (comentário).
+  - Abas: Lanc_HORAS/Lancamentos, Lanc_HE, Compensacoes, Cadastro e Vigencias.
+- **Painel da EI36 com o topo da Gestão da EI32:**
+  - título centralizado "EI36 — GESTÃO DE CONTRATO";
+  - faixa da equipe;
+  - logo thyssenkrupp;
+  - atalho "Como usar".
+- **Nas duas:**
+  - cabeçalhos auxiliares em cinza;
+  - zoom 90 nos painéis e 85 nos lançamentos;
+  - cabeçalho/rodapé de impressão "EIxx | thyssenkrupp | aba" e "Página x de y".
+- Recálculo: 0 erros (EI32 174.851 fórmulas; EI36 189.696).
